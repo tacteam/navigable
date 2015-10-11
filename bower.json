@@ -1,0 +1,20 @@
+{
+  "name": "tac-navigable",
+  "version": "0.0.1",
+  "authors": [
+    "alejandrocastrounqui <alejandrocastrounqui@gmail.com>"
+  ],
+  "description": "angular keyboard navigation components",
+  "main": "dist/navigable.js",
+  "keywords": [
+    "angular",
+    "keyboard",
+    "tacteam",
+    "navigation",
+    "keys",
+    "control",
+    "html5"
+  ],
+  "license": "MIT",
+  "homepage": "tiendatac.minplan.gob.ar"
+}
