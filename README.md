@@ -1,4 +1,4 @@
-# packaged tac-navigation
+# packaged tac-navigable
 
 This repo is for distribution on `bower`. The source for this module is in the
 [main TacTeam repo](https://github.com/tacteam/navigable).
