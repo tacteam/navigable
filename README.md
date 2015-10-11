@@ -6,12 +6,18 @@ Please file issues and pull requests against that repo.
 
 ## Install
 
-You can install this package either with `bower`.
+You can install this package with `bower`.
 
 ### bower
 
 ```shell
 bower install tac-navigable
+```
+
+Optionally you can add --save prefix to add package to bower.js
+
+```shell
+bower install tac-navigable --save
 ```
 
 Then add a `<script>` to your `index.html`:
