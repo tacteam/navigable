@@ -1,5 +1,11 @@
 (function() {
   'use strict';
+  angular.module('module.tac.navigable', []);
+
+}).call(this);
+
+(function() {
+  'use strict';
   angular.module('module.tac.navigable').factory('tac.navigable.extensible', [
     '$rootScope', function($rootScope) {
       var initial_handlers, log_action, log_creation, log_mode;
