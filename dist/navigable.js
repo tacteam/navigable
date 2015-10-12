@@ -535,12 +535,6 @@
 
 (function() {
   'use strict';
-  angular.module('module.tac.navigable', []);
-
-}).call(this);
-
-(function() {
-  'use strict';
   angular.module('module.tac.navigable').factory('tac.navigable.panel.extender', [
     function() {
       var opposite;
