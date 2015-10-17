@@ -15,6 +15,10 @@ Most of the navigation systems are based on jQuery and perform extensive searche
 This means that every action processing consumes a lot of platform resources, the bigger the site, the more complex processing.
 **tac.navigable** generates a virtual tree navigation, linking the nodes as parents and children, in this way, to process an action, you only has to percolete over levels in search of the next available node, which involves minimal processing.
 
+<a href="wiki/images/percolate.png?raw=true" title="percolate events system" alt="percolate events system" target="_blank">
+  <img src="wiki/images/percolate.png?raw=true" width="200"/>
+</a>
+
 ## Install
 
 This repo is for distribution on `bower`. The source for this module is in the
@@ -78,7 +82,9 @@ angular.module('main-application')
 
 ##### Using
 
-
+<a href="wiki/images/percolate.png?raw=true" title="percolate events system" alt="percolate events system" target="_blank">
+  <img src="wiki/images/percolate.png?raw=true" width="200"/>
+</a>
 
 ## License
 
