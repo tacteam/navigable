@@ -108,8 +108,8 @@ Las acciones básicas que procesa el arbol son las siguientes:
 
 Si representamos nuestra página de forma simple. Asi se podría ver el comportamiento ante alguna de estas acciones.
 
-<a href="wiki/images/navigation-flow.png?raw=true" title="percolate events system" alt="percolate events system" target="_blank">
-  <img src="wiki/images/navigation-flow.png?raw=true" width="400"/>
+<a href="wiki/images/navigation-actions.png?raw=true" title="percolate events system" alt="percolate events system" target="_blank">
+  <img src="wiki/images/navigation-actions.png?raw=true" width="400"/>
 </a>
 
 Una vez hecha la aclaración, pasemos a entender como convertir nuestro sitio en una aplicación navegable.
