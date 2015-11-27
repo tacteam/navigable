@@ -2,7 +2,7 @@
 
 angular.module('module.tac.navigable')
 
-.service('tac.navigable.fail.service', [
+.service('tac.navigable.fail', [
   () ->
     callbacks = []
     

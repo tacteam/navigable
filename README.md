@@ -1,6 +1,6 @@
 ### TAC Development Guide
 
-# tac-navigable
+# tac-navigable 
 
 The TAC team developed a set of components that makes it easy to convert a conventional site into an navigable by keyboard application.
 **tac.navigable** is useful only in applications Angular.js, if well this can be added to other sites, it is not recommended.
@@ -45,8 +45,6 @@ Then add a `<script>` to your `index.html`:
 <script src="/bower_components/tac-navigable/dist/navigable.js"></script>
 ```
 
-## Documentation
-
 ##### Angular dependency
 
 You must add the component identifier to Angular dependencies in order to load module into the application.
@@ -71,20 +69,16 @@ angular.module('main-application')
 .run([
   '$rootScope',
   'tac.keys',
-  'tac.navigable.root.main',
-  function($rootScope, keys, rootMain) {
+  function($rootScope, keys) {
 	keys.bind_keydown(document);
-	keys.subscribe(rootMain);
-	rootMain.bind_to($rootScope);
   }
 ])
 ```
 
-##### Using
+##### Documentation
 
-<a href="wiki/images/percolate.png?raw=true" title="percolate events system" alt="percolate events system" target="_blank">
-  <img src="wiki/images/percolate.png?raw=true" width="200"/>
-</a>
+Available only in spanish: 
+<a href="documentation.es.md" title="spanish documentation" alt="spanish documentation">documentation</a>
 
 ## License
 
