@@ -38,8 +38,8 @@ angular.module('module.tac.navigable')
               
         sort_components: ->
           @components.sort (a, b)->
-            if a > b then 1
-            else if b > a then -1
+            if a.priority > b.priority then 1
+            else if b.priority > a.priority then -1
             else 0
         
         sort_next_time: ->

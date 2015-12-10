@@ -273,9 +273,9 @@
             },
             sort_components: function() {
               return this.components.sort(function(a, b) {
-                if (a > b) {
+                if (a.priority > b.priority) {
                   return 1;
-                } else if (b > a) {
+                } else if (b.priority > a.priority) {
                   return -1;
                 } else {
                   return 0;

@@ -59,7 +59,7 @@ angular.module('main-application',[
 ])
 ```
 
-Tenga en cuenta que **tac.keyboard** depende de los componentes
+Tenga en cuenta que **tac.navigable** depende de los componentes
 [**tac.keys**](https://github.com/tacteam/keys) y 
 [**tac.navigable**](https://github.com/tacteam/navigable). 
 Asegúrese de que estén presentes.
